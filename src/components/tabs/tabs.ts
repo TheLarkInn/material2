@@ -43,7 +43,7 @@ export class MdTab {
   moduleId: module.id,
   selector: 'md-tab-group',
   templateUrl: 'tab-group.html',
-  styleUrls: ['tab-group.css'],
+  styleUrls: ['tab-group.scss'],
   directives: [PortalHostDirective, MdTabLabelWrapper, MdInkBar],
 })
 export class MdTabGroup {

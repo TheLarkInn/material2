@@ -60,7 +60,7 @@ export class MdCheckboxChange {
   moduleId: module.id,
   selector: 'md-checkbox',
   templateUrl: 'checkbox.html',
-  styleUrls: ['checkbox.css'],
+  styleUrls: ['checkbox.scss'],
   host: {
     '[class.md-checkbox-indeterminate]': 'indeterminate',
     '[class.md-checkbox-checked]': 'checked',

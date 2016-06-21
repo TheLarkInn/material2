@@ -16,7 +16,7 @@ import { MdLine, MdLineSetter } from '@angular2-material/core/line/line';
   selector: 'md-list, md-nav-list',
   host: {'role': 'list'},
   template: '<ng-content></ng-content>',
-  styleUrls: ['list.css'],
+  styleUrls: ['list.scss'],
   encapsulation: ViewEncapsulation.None
 })
 export class MdList {}

@@ -23,7 +23,7 @@ import {
   moduleId: module.id,
   selector: 'overlay-demo',
   templateUrl: 'overlay-demo.html',
-  styleUrls: ['overlay-demo.css'],
+  styleUrls: ['overlay-demo.scss'],
   directives: [PORTAL_DIRECTIVES, OVERLAY_DIRECTIVES],
   providers: [OVERLAY_PROVIDERS],
   encapsulation: ViewEncapsulation.None,

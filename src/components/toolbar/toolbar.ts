@@ -11,7 +11,7 @@ import {ElementRef} from '@angular/core';
   moduleId: module.id,
   selector: 'md-toolbar',
   templateUrl: 'toolbar.html',
-  styleUrls: ['toolbar.css'],
+  styleUrls: ['toolbar.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   encapsulation: ViewEncapsulation.None
 })

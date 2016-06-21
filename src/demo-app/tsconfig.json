@@ -17,12 +17,12 @@
     "baseUrl": "",
     "paths": {
       "@angular2-material/core/*": [
-        "./core/*",
-        "../core/*"
+        "./core/*.ts",
+        "../core/*.ts"
       ],
       "@angular2-material/*": [
-        "./components/*",
-        "../components/*"
+        "./components/*.ts",
+        "../components/*.ts"
       ]
     }
   },

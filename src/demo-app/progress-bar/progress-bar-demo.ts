@@ -8,7 +8,7 @@ import {MdProgressBar} from '@angular2-material/progress-bar/progress-bar';
   moduleId: module.id,
   selector: 'progress-bar-demo',
   templateUrl: 'progress-bar-demo.html',
-  styleUrls: ['progress-bar-demo.css'],
+  styleUrls: ['progress-bar-demo.scss'],
   directives: [MdProgressBar, MdButton]
 })
 export class ProgressBarDemo {

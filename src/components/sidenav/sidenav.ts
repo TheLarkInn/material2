@@ -234,8 +234,8 @@ export class MdSidenav {
   directives: [MdSidenav],
   templateUrl: 'sidenav.html',
   styleUrls: [
-    'sidenav.css',
-    'sidenav-transitions.css',
+    'sidenav.scss',
+    'sidenav-transitions.scss',
   ],
 })
 export class MdSidenavLayout implements AfterContentInit {

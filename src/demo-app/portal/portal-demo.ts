@@ -11,7 +11,7 @@ import {
   moduleId: module.id,
   selector: 'portal-demo',
   templateUrl: 'portal-demo.html',
-  styleUrls: ['portal-demo.css'],
+  styleUrls: ['portal-demo.scss'],
   directives: [TemplatePortalDirective, PortalHostDirective]
 })
 export class PortalDemo {

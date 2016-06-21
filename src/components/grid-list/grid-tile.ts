@@ -16,7 +16,7 @@ import {coerceToNumber} from './grid-list-measure';
   selector: 'md-grid-tile',
   host: { 'role': 'listitem' },
   templateUrl: 'grid-tile.html',
-  styleUrls: ['grid-list.css'],
+  styleUrls: ['grid-list.scss'],
   encapsulation: ViewEncapsulation.None,
 })
 export class MdGridTile {

@@ -22,7 +22,7 @@ import {
     'aria-valuemax': '100',
   },
   templateUrl: 'progress-bar.html',
-  styleUrls: ['progress-bar.css'],
+  styleUrls: ['progress-bar.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MdProgressBar {

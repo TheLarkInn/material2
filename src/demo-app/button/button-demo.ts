@@ -6,7 +6,7 @@ import {MdIcon} from '@angular2-material/icon/icon';
   moduleId: module.id,
   selector: 'button-demo',
   templateUrl: 'button-demo.html',
-  styleUrls: ['button-demo.css'],
+  styleUrls: ['button-demo.scss'],
   directives: [MdButton, MdAnchor, MdIcon]
 })
 export class ButtonDemo {

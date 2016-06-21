@@ -39,7 +39,7 @@ type EasingFn = (currentTime: number, startValue: number,
     '[attr.aria-valuemax]': 'ariaValueMax',
   },
   templateUrl: 'progress-circle.html',
-  styleUrls: ['progress-circle.css'],
+  styleUrls: ['progress-circle.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MdProgressCircle implements OnDestroy {
@@ -227,7 +227,7 @@ export class MdProgressCircle implements OnDestroy {
     'mode': 'indeterminate',
   },
   templateUrl: 'progress-circle.html',
-  styleUrls: ['progress-circle.css'],
+  styleUrls: ['progress-circle.scss'],
 })
 export class MdSpinner extends MdProgressCircle {
   constructor(changeDetectorRef: ChangeDetectorRef) {

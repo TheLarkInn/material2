@@ -162,7 +162,7 @@ export class MdButtonToggleGroupMultiple {
   moduleId: module.id,
   selector: 'md-button-toggle',
   templateUrl: 'button-toggle.html',
-  styleUrls: ['button-toggle.css'],
+  styleUrls: ['button-toggle.scss'],
   encapsulation: ViewEncapsulation.None,
 })
 export class MdButtonToggle implements OnInit {

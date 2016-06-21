@@ -26,7 +26,7 @@ import {
     '(blur)': 'removeKeyboardFocus()',
   },
   templateUrl: 'button.html',
-  styleUrls: ['button.css'],
+  styleUrls: ['button.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
@@ -99,7 +99,7 @@ export class MdButton {
     '(click)': 'haltDisabledEvents($event)',
   },
   templateUrl: 'button.html',
-  styleUrls: ['button.css'],
+  styleUrls: ['button.scss'],
   encapsulation: ViewEncapsulation.None
 })
 export class MdAnchor extends MdButton {

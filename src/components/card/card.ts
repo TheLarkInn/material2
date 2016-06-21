@@ -24,7 +24,7 @@ it also provides a number of preset styles for common card sections, including:
   moduleId: module.id,
   selector: 'md-card',
   templateUrl: 'card.html',
-  styleUrls: ['card.css'],
+  styleUrls: ['card.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

@@ -8,7 +8,7 @@ import {MdIcon, MdIconRegistry} from '@angular2-material/icon/icon';
   moduleId: module.id,
   selector: 'grid-list-demo',
   templateUrl: 'grid-list-demo.html',
-  styleUrls: ['grid-list-demo.css'],
+  styleUrls: ['grid-list-demo.scss'],
   directives: [MD_GRID_LIST_DIRECTIVES, MdButton, MD_CARD_DIRECTIVES, MdIcon],
   providers: [MdIconRegistry]
 })

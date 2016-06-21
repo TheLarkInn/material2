@@ -41,7 +41,7 @@ let nextId = 0;
     '(mousedown)': 'setMousedown()'
   },
   templateUrl: 'slide-toggle.html',
-  styleUrls: ['slide-toggle.css'],
+  styleUrls: ['slide-toggle.scss'],
   providers: [MD_SLIDE_TOGGLE_VALUE_ACCESSOR],
   changeDetection: ChangeDetectionStrategy.OnPush
 })

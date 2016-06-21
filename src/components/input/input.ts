@@ -95,7 +95,7 @@ export class MdHint {
   moduleId: module.id,
   selector: 'md-input',
   templateUrl: 'input.html',
-  styleUrls: ['input.css'],
+  styleUrls: ['input.scss'],
   providers: [MD_INPUT_CONTROL_VALUE_ACCESSOR],
   host: {'(click)' : 'focus()'}
 })

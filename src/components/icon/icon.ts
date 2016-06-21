@@ -59,7 +59,7 @@ export class MdIconInvalidNameError extends MdError {
   moduleId: module.id,
   template: '<ng-content></ng-content>',
   selector: 'md-icon',
-  styleUrls: ['icon.css'],
+  styleUrls: ['icon.scss'],
   host: {
     'role': 'img',
   },
