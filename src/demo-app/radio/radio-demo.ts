@@ -9,7 +9,7 @@ import {
   moduleId: module.id,
   selector: 'radio-demo',
   templateUrl: 'radio-demo.html',
-  styleUrls: ['radio-demo.css'],
+  styleUrls: ['radio-demo.scss'],
   providers: [MdUniqueSelectionDispatcher],
   directives: [MdCheckbox, MdRadioButton, MdRadioGroup]
 })

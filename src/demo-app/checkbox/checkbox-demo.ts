@@ -62,7 +62,7 @@ class MdCheckboxDemoNestedChecklist {
   moduleId: module.id,
   selector: 'md-checkbox-demo',
   templateUrl: 'checkbox-demo.html',
-  styleUrls: ['checkbox-demo.css'],
+  styleUrls: ['checkbox-demo.scss'],
   directives: [MdCheckbox, MdCheckboxDemoNestedChecklist, FORM_DIRECTIVES]
 })
 export class CheckboxDemo {

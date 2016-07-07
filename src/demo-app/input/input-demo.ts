@@ -13,7 +13,7 @@ let max = 5;
   moduleId: module.id,
   selector: 'input-demo',
   templateUrl: 'input-demo.html',
-  styleUrls: ['input-demo.css'],
+  styleUrls: ['input-demo.scss'],
   directives: [MdCard, MdCheckbox, MdButton, MdIcon, MdToolbar, MD_INPUT_DIRECTIVES]
 })
 export class InputDemo {

@@ -7,7 +7,7 @@ import {MdIcon} from '@angular2-material/icon/icon';
   moduleId: module.id,
   selector: 'list-demo',
   templateUrl: 'list-demo.html',
-  styleUrls: ['list-demo.css'],
+  styleUrls: ['list-demo.scss'],
   directives: [MD_LIST_DIRECTIVES, MdButton, MdIcon]
 })
 export class ListDemo {

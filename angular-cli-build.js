@@ -85,27 +85,27 @@ function _buildAppTree(defaults) {
   }
 
   return new Angular2App(defaults, inputNode, {
-    sourceDir: sourceDir,
-    polyfills: [
-      'vendor/core-js/client/core.js',
-      'vendor/systemjs/dist/system.src.js',
-      'vendor/zone.js/dist/zone.js',
-      'vendor/hammerjs/hammer.min.js'
-    ],
-    tsCompiler: {},
-    sassCompiler: {
-      includePaths: [
-        'src/core/style'
-      ]
-    },
-    vendorNpmFiles: [
-      'systemjs/dist/system-polyfills.js',
-      'systemjs/dist/system.src.js',
-      'zone.js/dist/*.+(js|js.map)',
-      'core-js/client/core.js',
-      'rxjs/**/*.+(js|js.map)',
-      '@angular/**/*.+(js|js.map)',
-      'hammerjs/*.min.+(js|js.map)'
-    ]
+    sourceDir: sourceDir
+    // polyfills: [
+    //   'vendor/core-js/client/core.js',
+    //   'vendor/systemjs/dist/system.src.js',
+    //   'vendor/zone.js/dist/zone.js',
+    //   'vendor/hammerjs/hammer.min.js'
+    // ],
+    // tsCompiler: {},
+    // sassCompiler: {
+    //   includePaths: [
+    //     'src/core/style'
+    //   ]
+    // },
+    // vendorNpmFiles: [
+    //   'systemjs/dist/system-polyfills.js',
+    //   'systemjs/dist/system.src.js',
+    //   'zone.js/dist/*.+(js|js.map)',
+    //   'core-js/client/core.js',
+    //   'rxjs/**/*.+(js|js.map)',
+    //   '@angular/**/*.+(js|js.map)',
+    //   'hammerjs/*.min.+(js|js.map)'
+    // ]
   });
 }

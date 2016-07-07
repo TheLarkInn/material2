@@ -8,7 +8,7 @@ import {Observable} from 'rxjs/Observable';
   moduleId: module.id,
   selector: 'tab-group-demo',
   templateUrl: 'tab-group-demo.html',
-  styleUrls: ['tab-group-demo.css'],
+  styleUrls: ['tab-group-demo.scss'],
   directives: [MD_TABS_DIRECTIVES, MdToolbar, MdInput],
   encapsulation: ViewEncapsulation.None,
 })

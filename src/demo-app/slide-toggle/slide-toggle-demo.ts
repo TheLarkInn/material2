@@ -5,7 +5,7 @@ import {MdSlideToggle} from '@angular2-material/slide-toggle/slide-toggle';
   moduleId: module.id,
   selector: 'switch-demo',
   templateUrl: 'slide-toggle-demo.html',
-  styleUrls: ['slide-toggle-demo.css'],
+  styleUrls: ['slide-toggle-demo.scss'],
   directives: [MdSlideToggle]
 })
 export class SlideToggleDemo {}

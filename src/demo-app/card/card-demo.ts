@@ -6,7 +6,7 @@ import {MD_CARD_DIRECTIVES} from '@angular2-material/card/card';
   moduleId: module.id,
   selector: 'card-demo',
   templateUrl: 'card-demo.html',
-  styleUrls: ['card-demo.css'],
+  styleUrls: ['card-demo.scss'],
   directives: [MD_CARD_DIRECTIVES, MdButton]
 })
 export class CardDemo {}

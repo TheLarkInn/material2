@@ -16,7 +16,7 @@ import {
   moduleId: module.id,
   selector: 'baseline-demo',
   templateUrl: 'baseline-demo.html',
-  styleUrls: ['baseline-demo.css'],
+  styleUrls: ['baseline-demo.scss'],
   providers: [MdUniqueSelectionDispatcher],
   directives: [
     MD_BUTTON_DIRECTIVES,
