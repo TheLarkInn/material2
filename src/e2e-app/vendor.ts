@@ -12,7 +12,5 @@ import '@angular/router';
 import '@angular/platform-browser';
 import '@angular/platform-browser-dynamic';
 
-import 'hammerjs';
-
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/mergeMap';
